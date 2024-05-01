@@ -4,18 +4,20 @@ import java.util.LinkedList;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        LinkedList<String> linky = new LinkedList<>();
-        linky.add("first");
-        linky.add("second");
-        System.out.println(linky);
+        System.out.println("Polar Bear:");
+        PolarBear polarBear = new PolarBear();
+        polarBear.surface();
+        polarBear.dive();
 
-        for (int i = 0; i < 5; i++) {
-            System.out.println(i);
-        }
-        ////////////////////////////
+        System.out.println();
 
-        PolarBear whiteFall = new PolarBear();
-        whiteFall.surface();
+        System.out.println("Jaguar:");
+        Jaguar jaguar = new Jaguar();
+        jaguar.Breathe();
+        jaguar.Eat();
+        jaguar.Move();
+        jaguar.Reproduce();
+
 
 
         }
